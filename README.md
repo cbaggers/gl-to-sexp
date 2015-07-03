@@ -43,3 +43,23 @@ Each element in the version info list is laid out as follows:
 
     The first element is the name of the function and in some cases enough arg info to differentiate it from other incarnations of the same function. This is one string which sucks, so I need to parse this so we can apply the version info directly.
     The rest of the elements are the versions supported.
+
+
+So it ends up looking like this
+
+    (((("funcName" "returnType") (("first-arg-name" "first-arg-type") ("second-arg-name" "second-arg-type") ... more args))
+      (("funcName" "returnType") (...differenτ signature...))
+      ....more signatures with different signatures...)
+     (("funcNameDefaultCase" 130 140 150 330 400 .. other versions supported ..)
+      ("funcNameDifferentCase (differentArgType)" 140 150 330 400 410 420 430 440 450)
+      ... more version info for other signatures))
+
+
+    [[[["funcName", "returnType"], [["first-arg-name", "first-arg-type"], ["second-arg-name", "second-arg-type"], ... more args]],
+      [["funcName", "returnType"], [...differenτ signature...]],
+      ....more signatures with different signatures...],
+     [["funcNameDefaultCase", 130, 140, 150, 330, 400, .. other versions supported ..],
+      ["funcNameDifferentCase [differentArgType]", 140, 150, 330, 400, 410, 420, 430, 440, 450],
+      ... more version info for other signatures... ]]
+
+What Ι dont like is that the versions signature is a string. I need to parse this but havent done yet.
