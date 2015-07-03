@@ -62,4 +62,4 @@ So it ends up looking like this
       ["funcNameDifferentCase [differentArgType]", 140, 150, 330, 400, 410, 420, 430, 440, 450],
       ... more version info for other signatures... ]]
 
-What Ι dont like is that the versions signature is a string. I need to parse this but havent done yet.
+What Ι dont like is that the function signature for the version list is a string. I need to parse this but havent done yet.
