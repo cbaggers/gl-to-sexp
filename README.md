@@ -1,14 +1,12 @@
 # gl-to-sexp
 
-Making tools that understand GL are generally a pain as there is no up to date, machine readable version of the spec.
+Making tools that understand GLSL are generally a pain as there is no up to date, machine readable version of the spec.
 
 This is a wip fix to that problem.
 
 Thanks to docs.gl it is now easy to get hold of version of the spec with a single file for each function.
 
-The goal is to write simple scripts to extract all this data into an s-expression that can then be used by other languages and tools.
-
-So far I am focused on glsl but would appreciate any help getting the gl files parsed too.
+This rough script extract data from the spec into sexp and json formats.
 
 Requirements
 ============

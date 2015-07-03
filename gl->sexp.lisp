@@ -5,11 +5,18 @@
 (defun peek (x) (swank:inspect-in-emacs x) x)
 
 (defun export-all ()
-  (with-open-file (str #p"./spec/glsl"
-                       :direction :output
-                       :if-exists :supersede
-                       :if-does-not-exist :create)
-    (format str "~s" (mapcar #'spec->sexp (directory "/Users/Baggers/Code/GL/docs.gl/sl4/*.xhtml")))))
+  (let ((spec (mapcar #'spec->sexp (directory "/Users/Baggers/Code/GL/docs.gl/sl4/*.xhtml"))))
+    (with-open-file (str #p"./spec/glsl.sexp"
+                         :direction :output
+                         :if-exists :supersede
+                         :if-does-not-exist :create)
+      (format str "~s" spec))
+    (with-open-file (str #p"./spec/glsl.json"
+                         :direction :output
+                         :if-exists :supersede
+                         :if-does-not-exist :create)
+
+      (cl-json:encode-json spec str))))
 
 (defun spec->sexp (path)
   (let* ((root-node (plump:parse path))
