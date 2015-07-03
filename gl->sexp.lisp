@@ -9,7 +9,7 @@
                        :direction :output
                        :if-exists :supersede
                        :if-does-not-exist :create)
-    (format str "~s" (mapcar #'spec->sexp (directory "/home/baggers/Code/docs.gl/sl4/*.xhtml")))))
+    (format str "~s" (mapcar #'spec->sexp (directory "/Users/Baggers/Code/GL/docs.gl/sl4/*.xhtml")))))
 
 (defun spec->sexp (path)
   (let* ((root-node (plump:parse path))
@@ -38,9 +38,9 @@
          (mapcar #'(lambda (_)
                      (plump:text (aref (plump:children _) 0)))
                  (concatenate 'list (plump:child-elements row))))
-        (versions '(:110 :120 :130 :140 :150 :330 :400 :410 :420 :430 :440 :450)))
-    (cons (first cells) (mapcar (lambda (_ v) (unless (equal "-" _) v))
-                                (rest cells) versions))))
+        (versions '(110 120 130 140 150 330 400 410 420 430 440 450)))
+    (remove nil (cons (first cells) (mapcar (lambda (_ v) (unless (equal "-" _) v))
+                                            (rest cells) versions)))))
 
 (defun get-func-prototypes (root-node)
   (concatenate

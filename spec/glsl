@@ -1,357 +1,227 @@
 ((((("EmitStreamVertex" "void") (("stream" "int"))))
-  (("EmitStreamVertex" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("EmitStreamVertex" 400 410 420 430 440 450)))
  (((("EmitVertex" "void") ((")" "void"))))
-  (("EmitVertex" NIL NIL NIL NIL :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("EmitVertex" 150 330 400 410 420 430 440 450)))
  (((("EndPrimitive" "void") ((")" "void"))))
-  (("EndPrimitive" NIL NIL NIL NIL :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("EndPrimitive" 150 330 400 410 420 430 440 450)))
  (((("EndStreamPrimitive" "void") (("stream" "int"))))
-  (("EndStreamPrimitive" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("EndStreamPrimitive" 400 410 420 430 440 450)))
  (((("abs" "genType") (("x" "genType"))))
-  (("abs (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("abs (genIType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("abs (genDType)" NIL NIL NIL NIL NIL NIL NIL :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("abs (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("abs (genIType)" 130 140 150 330 400 410 420 430 440 450)
+   ("abs (genDType)" 410 420 430 440 450)))
  (((("acos" "genType") (("x" "genType"))))
-  (("acos" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("acos" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("acosh" "genType") (("x" "genType"))))
-  (("acosh" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("acosh" 130 140 150 330 400 410 420 430 440 450)))
  (((("all" "bool") (("x" "bvec"))))
-  (("all" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("all" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("any" "bool") (("x" "bvec"))))
-  (("any" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("any" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("asin" "genType") (("x" "genType"))))
-  (("asin" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("asin" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("asinh" "genType") (("x" "genType"))))
-  (("asinh" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("asinh" 130 140 150 330 400 410 420 430 440 450)))
  (((("atan" "genType") (("y" "genType") ("x" "genType"))))
-  (("atan" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("atan" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("atanh" "genType") (("x" "genType"))))
-  (("atanh" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("atanh" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("atomicAdd" "int") (("mem" "inout int") ("data" "int")))
    (("atomicAdd" "uint") (("mem" "inout uint") ("data" "uint"))))
-  (("atomicAdd" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440| :|450|)))
+  (("atomicAdd" 430 440 450)))
  (((("atomicAnd" "int") (("mem" "inout int") ("data" "int")))
    (("atomicAnd" "uint") (("mem" "inout uint") ("data" "uint"))))
-  (("atomicAnd" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440| :|450|)))
+  (("atomicAnd" 430 440 450)))
  (((("atomicCompSwap" "int")
     (("mem" "inout int") ("compare" "uint") ("data" "uint")))
    (("atomicCompSwap" "uint")
     (("mem" "inout uint") ("compare" "uint") ("data" "uint"))))
-  (("atomicCompSwap" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440|
-    :|450|)))
+  (("atomicCompSwap" 430 440 450)))
  (((("atomicCounter" "uint") (("c" "atomic_uint"))))
-  (("atomicCounter" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440|
-    :|450|)))
+  (("atomicCounter" 420 430 440 450)))
  (((("atomicCounterDecrement" "uint") (("c" "atomic_uint"))))
-  (("atomicCounterDecrement" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430|
-    :|440| :|450|)))
+  (("atomicCounterDecrement" 420 430 440 450)))
  (((("atomicCounterIncrement" "uint") (("c" "atomic_uint"))))
-  (("atomicCounterIncrement" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430|
-    :|440| :|450|)))
+  (("atomicCounterIncrement" 420 430 440 450)))
  (((("atomicExchange" "int") (("mem" "inout int") ("data" "int")))
    (("atomicExchange" "uint") (("mem" "inout uint") ("data" "uint"))))
-  (("atomicExchange" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440|
-    :|450|)))
+  (("atomicExchange" 430 440 450)))
  (((("atomicMax" "int") (("mem" "inout int") ("data" "int")))
    (("atomicMax" "uint") (("mem" "inout uint") ("data" "uint"))))
-  (("atomicMax" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440| :|450|)))
+  (("atomicMax" 430 440 450)))
  (((("atomicMin" "int") (("mem" "inout int") ("data" "int")))
    (("atomicMin" "uint") (("mem" "inout uint") ("data" "uint"))))
-  (("atomicMin" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440| :|450|)))
+  (("atomicMin" 430 440 450)))
  (((("atomicOr" "int") (("mem" "inout int") ("data" "int")))
    (("atomicOr" "uint") (("mem" "inout uint") ("data" "uint"))))
-  (("atomicOr" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440| :|450|)))
+  (("atomicOr" 430 440 450)))
  (((("atomicXor" "int") (("mem" "inout int") ("data" "int")))
    (("atomicXor" "uint") (("mem" "inout uint") ("data" "uint"))))
-  (("atomicXor" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440| :|450|)))
- (((("barrier" "void") ((")" "void"))))
-  (("barrier" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("atomicXor" 430 440 450)))
+ (((("barrier" "void") ((")" "void")))) (("barrier" 400 410 420 430 440 450)))
  (((("bitCount" "genIType") (("value" "genIType")))
    (("bitCount" "genIType") (("value" "genUType"))))
-  (("bitCount" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("bitCount" 400 410 420 430 440 450)))
  (((("bitfieldExtract" "genIType")
     (("value" "genIType") ("offset" "int") ("bits" "int")))
    (("bitfieldExtract" "genUType")
     (("value" "genUType") ("offset" "int") ("bits" "int"))))
-  (("bitfieldInsert" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("bitfieldInsert" 400 410 420 430 440 450)))
  (((("bitfieldInsert" "genIType")
     (("base" "genIType") ("insert" "genIType") ("offset" "int")
      ("bits" "int")))
    (("bitfieldInsert" "genUType")
     (("base" "genUType") ("insert" "genUType") ("offset" "int")
      ("bits" "int"))))
-  (("bitfieldInsert" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("bitfieldInsert" 400 410 420 430 440 450)))
  (((("bitfieldReverse" "genIType") (("value" "genIType")))
    (("bitfieldReverse" "genUType") (("value" "genUType"))))
-  (("bitfieldReverse" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("bitfieldReverse" 400 410 420 430 440 450)))
  (((("ceil" "genType") (("x" "genType"))))
-  (("ceil (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("ceil (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("ceil (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("ceil (genDType)" 400 410 420 430 440 450)))
  (((("clamp" "genType")
     (("x" "genType") ("minVal" "genType") ("maxVal" "genType"))))
-  (("clamp (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("clamp (genIType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("clamp (genUType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("clamp (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("clamp (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("clamp (genIType)" 130 140 150 330 400 410 420 430 440 450)
+   ("clamp (genUType)" 130 140 150 330 400 410 420 430 440 450)
+   ("clamp (genDType)" 400 410 420 430 440 450)))
  (((("cos" "genType") (("angle" "genType"))))
-  (("cos" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("cos" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("cosh" "genType") (("x" "genType"))))
-  (("cosh" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("cosh" 130 140 150 330 400 410 420 430 440 450)))
  (((("cross" "vec3") (("x" "vec3") ("y" "vec3")))
    (("cross" "dvec3") (("x" "dvec3") ("y" "dvec3"))))
-  (("cross (vec3)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("cross (dvec3)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("cross (vec3)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("cross (dvec3)" 400 410 420 430 440 450)))
  (((("dFdx" "genType") (("p" "genType")))
    (("dFdy" "genType") (("p" "genType")))
    (("dFdxCoarse" "genType") (("p" "genType")))
    (("dFdyCoarse" "genType") (("p" "genType")))
    (("dFdxFine" "genType") (("p" "genType")))
    (("dFdyFine" "genType") (("p" "genType"))))
-  (("dFdx" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("dFdy" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("dFdxCoarse, dFdxFine, dFdyCoarse, dFdyFine" NIL NIL NIL NIL NIL NIL NIL
-    NIL NIL NIL NIL :|450|)))
+  (("dFdx" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("dFdy" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("dFdxCoarse, dFdxFine, dFdyCoarse, dFdyFine" 450)))
  (((("degrees" "genType") (("radians" "genType"))))
-  (("degrees" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("degrees" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("determinant" "float") (("m" "mat2")))
    (("determinant" "float") (("m" "mat3")))
    (("determinant" "float") (("m" "mat4")))
    (("determinant" "double") (("m" "dmat2")))
    (("determinant" "double") (("m" "dmat3")))
    (("determinant" "double") (("m" "dmat4"))))
-  (("determinant (float)" NIL NIL NIL NIL :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("determinant (double)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("determinant (float)" 150 330 400 410 420 430 440 450)
+   ("determinant (double)" 400 410 420 430 440 450)))
  (((("distance" "float") (("p0" "genType") ("p1" "genType")))
    (("distance" "double") (("p0" "genDType") ("p1" "genDType"))))
-  (("distance (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400|
-    :|410| :|420| :|430| :|440| :|450|)
-   ("distance (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("distance (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("distance (genDType)" 400 410 420 430 440 450)))
  (((("dot" "float") (("x" "genType") ("y" "genType")))
    (("dot" "double") (("x" "genDType") ("y" "genDType"))))
-  (("dot (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("dot (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("dot (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("dot (genDType)" 400 410 420 430 440 450)))
  (((("equal" "bvec") (("x" "vec") ("y" "vec")))
    (("equal" "bvec") (("x" "ivec") ("y" "ivec")))
    (("equal" "bvec") (("x" "uvec") ("y" "uvec"))))
-  (("equal" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("equal" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("exp" "genType") (("x" "genType"))))
-  (("exp" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("exp" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("exp2" "genType") (("x" "genType"))))
-  (("exp2" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("exp2" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("faceforward" "genType")
     (("N" "genType") ("I" "genType") ("Nref" "genType")))
    (("faceforward" "genDType")
     (("N" "genDType") ("I" "genDType") ("Nref" "genDType"))))
-  (("faceforward (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400|
-    :|410| :|420| :|430| :|440| :|450|)
-   ("faceforward (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("faceforward (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("faceforward (genDType)" 400 410 420 430 440 450)))
  (((("findLSB" "genIType") (("value" "genIType")))
    (("findLSB" "genIType") (("value" "genUType"))))
-  (("findLSB" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("findLSB" 400 410 420 430 440 450)))
  (((("findMSB" "genIType") (("value" "genIType")))
    (("findMSB" "genIType") (("value" "genUType"))))
-  (("findMSB" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("findMSB" 400 410 420 430 440 450)))
  (((("floatBitsToInt" "genIType") (("x" "genType")))
    (("floatBitsToUint" "genUType") (("x" "genType"))))
-  (("floatBitsToInt" NIL NIL NIL NIL NIL :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)
-   ("floatBitsToUInt" NIL NIL NIL NIL NIL :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("floatBitsToInt" 330 400 410 420 430 440 450)
+   ("floatBitsToUInt" 330 400 410 420 430 440 450)))
  (((("floor" "genType") (("x" "genType"))))
-  (("floor (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("floor (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("floor (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("floor (genDType)" 400 410 420 430 440 450)))
  (((("fma" "genType") (("a" "genType") ("b" "genType") ("c" "genType")))
    (("fma" "genDType") (("a" "genDType") ("b" "genDType") ("c" "genDType"))))
-  (("fma (genType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)
-   ("fma (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("fma (genType)" 400 410 420 430 440 450)
+   ("fma (genDType)" 400 410 420 430 440 450)))
  (((("fract" "genType") (("x" "genType"))))
-  (("fract (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("fract (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("fract (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("fract (genDType)" 400 410 420 430 440 450)))
  (((("frexp" "genType") (("x" "genType") ("exp" "out genIType")))
    (("frexp" "genDType") (("x" "genDType") ("exp" "out genIType"))))
-  (("frexp (genType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)
-   ("frexp (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("frexp (genType)" 400 410 420 430 440 450)
+   ("frexp (genDType)" 400 410 420 430 440 450)))
  (((("fwidth" "genType") (("p" "genType")))
    (("fwidthCoarse" "genType") (("p" "genType")))
    (("fwidthFine" "genType") (("p" "genType"))))
-  (("fwidth" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("fwidthCoarse, fwidthFine" NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL
-    :|450|)))
+  (("fwidth" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("fwidthCoarse, fwidthFine" 450)))
+ (NIL (("gl_ClipDistance" 130 140 150 330 400 410 420 430 440 450)))
+ (NIL (("gl_CullDistance" 450)))
+ (NIL (("gl_FragCoord" 110 120 130 140 150 330 400 410 420 430 440 450)))
+ (NIL (("gl_FragDepth" 110 120 130 140 150 330 400 410 420 430 440 450)))
+ (NIL (("gl_FrontFacing" 110 120 130 140 150 330 400 410 420 430 440 450)))
+ (NIL (("gl_GlobalInvocationID" 430 440 450)))
+ (NIL (("gl_HelperInvocation" 450)))
+ (NIL (("gl_InstanceID" 140 150 330 400 410 420 430 440 450)))
+ (NIL (("gl_InvocationID" 150 330 400 410 420 430 440 450)))
  (NIL
-  (("gl_ClipDistance" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
- (NIL (("gl_CullDistance" NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL :|450|)))
+  (("gl_Layer (geometry stage)" 150 330 400 410 420 430 440 450)
+   ("gl_Layer (fragment stage)" 430 440 450)))
+ (NIL (("gl_LocalInvocationID" 430 440 450)))
+ (NIL (("gl_LocalInvocationIndex" 430 440 450)))
+ (NIL (("gl_NumSamples" 400 410 420 430 440 450)))
+ (NIL (("gl_NumWorkGroups" 430 440 450)))
+ (NIL (("gl_PatchVerticesIn" 400 410 420 430 440 450)))
+ (NIL (("gl_PointCoord" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (NIL
-  (("gl_FragCoord" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
+  (("gl_PointSize (vertex shader)" 110 120 130 140 150 330 400 410 420 430 440
+    450)
+   ("gl_PointSize (geometry shader)" 150 330 400 410 420 430 440 450)
+   ("gl_PointSize (tessellation evaluation shader)" 400 410 420 430 440 450)))
+ (NIL (("gl_Position" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (NIL
-  (("gl_FragDepth" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
- (NIL
-  (("gl_FrontFacing" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
- (NIL
-  (("gl_GlobalInvocationID" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440|
-    :|450|)))
- (NIL
-  (("gl_HelperInvocation" NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL :|450|)))
- (NIL
-  (("gl_InstanceID" NIL NIL NIL :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
- (NIL
-  (("gl_InvocationID" NIL NIL NIL NIL :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
- (NIL
-  (("gl_Layer (geometry stage)" NIL NIL NIL NIL :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("gl_Layer (fragment stage)" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430|
-    :|440| :|450|)))
- (NIL
-  (("gl_LocalInvocationID" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440|
-    :|450|)))
- (NIL
-  (("gl_LocalInvocationIndex" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440|
-    :|450|)))
- (NIL
-  (("gl_NumSamples" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
- (NIL
-  (("gl_NumWorkGroups" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440|
-    :|450|)))
- (NIL
-  (("gl_PatchVerticesIn" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
- (NIL
-  (("gl_PointCoord" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
- (NIL
-  (("gl_PointSize (vertex shader)" :|110| :|120| :|130| :|140| :|150| :|330|
-    :|400| :|410| :|420| :|430| :|440| :|450|)
-   ("gl_PointSize (geometry shader)" NIL NIL NIL NIL :|150| :|330| :|400|
-    :|410| :|420| :|430| :|440| :|450|)
-   ("gl_PointSize (tessellation evaluation shader)" NIL NIL NIL NIL NIL NIL
-    :|400| :|410| :|420| :|430| :|440| :|450|)))
- (NIL
-  (("gl_Position" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
- (NIL
-  (("gl_PrimitiveID" NIL NIL NIL NIL :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)
-   ("gl_PrimitiveID" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
- (NIL
-  (("gl_PrimitiveIDIn" NIL NIL NIL NIL :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
- (NIL
-  (("gl_SampleID" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
- (NIL
-  (("gl_SampleMask" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
- (NIL
-  (("gl_SampleMaskIn" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
- (NIL
-  (("gl_SamplePosition" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
- (NIL
-  (("gl_TessCoord" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
- (NIL
-  (("gl_TessLevelInner" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
- (NIL
-  (("gl_TessLevelOuter" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("gl_PrimitiveID" 150 330 400 410 420 430 440 450)
+   ("gl_PrimitiveID" 400 410 420 430 440 450)))
+ (NIL (("gl_PrimitiveIDIn" 150 330 400 410 420 430 440 450)))
+ (NIL (("gl_SampleID" 400 410 420 430 440 450)))
+ (NIL (("gl_SampleMask" 400 410 420 430 440 450)))
+ (NIL (("gl_SampleMaskIn" 400 410 420 430 440 450)))
+ (NIL (("gl_SamplePosition" 400 410 420 430 440 450)))
+ (NIL (("gl_TessCoord" 400 410 420 430 440 450)))
+ (NIL (("gl_TessLevelInner" 400 410 420 430 440 450)))
+ (NIL (("gl_TessLevelOuter" 400 410 420 430 440 450)))
  (NIL
   (("
                   "
-    :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+    110 120 130 140 150 330 400 410 420 430 440 450)))
  (NIL
-  (("gl_ViewportIndex (geometry stage)" NIL NIL NIL NIL :|150| :|330| :|400|
-    :|410| :|420| :|430| :|440| :|450|)
-   ("gl_ViewportIndex (fragment stage)" NIL NIL NIL NIL NIL NIL NIL NIL NIL
-    :|430| :|440| :|450|)))
- (NIL
-  (("gl_WorkGroupID" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440|
-    :|450|)))
- (NIL
-  (("gl_WorkGroupSize" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440|
-    :|450|)))
+  (("gl_ViewportIndex (geometry stage)" 150 330 400 410 420 430 440 450)
+   ("gl_ViewportIndex (fragment stage)" 430 440 450)))
+ (NIL (("gl_WorkGroupID" 430 440 450)))
+ (NIL (("gl_WorkGroupSize" 430 440 450)))
  (((("greaterThan" "bvec") (("x" "vec") ("y" "vec")))
    (("greaterThan" "bvec") (("x" "ivec") ("y" "ivec")))
    (("greaterThan" "bvec") (("x" "uvec") ("y" "uvec"))))
-  (("greaterThan (vec)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("greaterThan (ivec)" :|110| :|120| :|130| :|140| :|150| :|330| :|400|
-    :|410| :|420| :|430| :|440| :|450|)
-   ("greaterThan (uvec)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
+  (("greaterThan (vec)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("greaterThan (ivec)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("greaterThan (uvec)" 130 140 150 330 400 410 420 430 440 450)))
  (((("greaterThanEqual" "bvec") (("x" "vec") ("y" "vec")))
    (("greaterThanEqual" "bvec") (("x" "ivec") ("y" "ivec")))
    (("greaterThanEqual" "bvec") (("x" "uvec") ("y" "uvec"))))
-  (("greaterThanEqual (vec)" :|110| :|120| :|130| :|140| :|150| :|330| :|400|
-    :|410| :|420| :|430| :|440| :|450|)
-   ("greaterThanEqual (ivec)" :|110| :|120| :|130| :|140| :|150| :|330| :|400|
-    :|410| :|420| :|430| :|440| :|450|)
-   ("greaterThanEqual (uvec)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
+  (("greaterThanEqual (vec)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("greaterThanEqual (ivec)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("greaterThanEqual (uvec)" 130 140 150 330 400 410 420 430 440 450)))
  (((("groupMemoryBarrier" "void") ((")" "void"))))
-  (("groupMemoryBarrier" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440|
-    :|450|)))
+  (("groupMemoryBarrier" 430 440 450)))
  (((("imageAtomicAdd" "uint")
     (("image" "gimage1D") ("P" "int") ("data" "uint")))
    (("imageAtomicAdd" "uint")
@@ -397,8 +267,7 @@
    (("imageAtomicAdd" "int")
     (("image" "gimage2DMSArray") ("P" "ivec3") ("sample" "int")
      ("data" "int"))))
-  (("imageAtomicAdd" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440|
-    :|450|)))
+  (("imageAtomicAdd" 420 430 440 450)))
  (((("imageAtomicAnd" "uint")
     (("image" "gimage1D") ("P" "int") ("data" "uint")))
    (("imageAtomicAnd" "uint")
@@ -444,8 +313,7 @@
    (("imageAtomicAnd" "int")
     (("image" "gimage2DMSArray") ("P" "ivec3") ("sample" "int")
      ("data" "int"))))
-  (("imageAtomicAnd" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440|
-    :|450|)))
+  (("imageAtomicAnd" 420 430 440 450)))
  (((("imageAtomicCompSwap" "uint")
     (("image" "gimage1D") ("P" "int") ("compare" "uint") ("data" "uint")))
    (("imageAtomicCompSwap" "uint")
@@ -499,8 +367,7 @@
    (("imageAtomicCompSwap" "int")
     (("image" "gimage2DMSArray") ("P" "ivec3") ("sample" "int")
      ("compare" "int") ("data" "int"))))
-  (("imageAtomicCompSwap" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440|
-    :|450|)))
+  (("imageAtomicCompSwap" 420 430 440 450)))
  (((("imageAtomicExchange" "uint")
     (("image" "gimage1D") ("P" "int") ("data" "uint")))
    (("imageAtomicExchange" "uint")
@@ -570,10 +437,8 @@
    (("imageAtomicExchange" "int")
     (("image" "gimage2DMSArray") ("P" "ivec3") ("sample" "int")
      ("data" "float"))))
-  (("imageAtomicExchange (uint and int " NIL NIL NIL NIL NIL NIL NIL NIL :|420|
-    :|430| :|440| :|450|)
-   ("imageAtomicExchange (float " NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL
-    :|450|)))
+  (("imageAtomicExchange (uint and int " 420 430 440 450)
+   ("imageAtomicExchange (float " 450)))
  (((("imageAtomicMax" "uint")
     (("image" "gimage1D") ("P" "int") ("data" "uint")))
    (("imageAtomicMax" "uint")
@@ -619,8 +484,7 @@
    (("imageAtomicMax" "int")
     (("image" "gimage2DMSArray") ("P" "ivec3") ("sample" "int")
      ("data" "int"))))
-  (("imageAtomicMax" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440|
-    :|450|)))
+  (("imageAtomicMax" 420 430 440 450)))
  (((("imageAtomicMin" "uint")
     (("image" "gimage1D") ("P" "int") ("data" "uint")))
    (("imageAtomicMin" "uint")
@@ -666,8 +530,7 @@
    (("imageAtomicMin" "int")
     (("image" "gimage2DMSArray") ("P" "ivec3") ("sample" "int")
      ("data" "int"))))
-  (("imageAtomicMin" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440|
-    :|450|)))
+  (("imageAtomicMin" 420 430 440 450)))
  (((("imageAtomicOr" "uint")
     (("image" "gimage1D") ("P" "int") ("data" "uint")))
    (("imageAtomicOr" "uint")
@@ -713,8 +576,7 @@
    (("imageAtomicOr" "int")
     (("image" "gimage2DMSArray") ("P" "ivec3") ("sample" "int")
      ("data" "int"))))
-  (("imageAtomicOr" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440|
-    :|450|)))
+  (("imageAtomicOr" 420 430 440 450)))
  (((("imageAtomicXor" "uint")
     (("image" "gimage1D") ("P" "int") ("data" "uint")))
    (("imageAtomicXor" "uint")
@@ -760,8 +622,7 @@
    (("imageAtomicXor" "int")
     (("image" "gimage2DMSArray") ("P" "ivec3") ("sample" "int")
      ("data" "int"))))
-  (("imageAtomicXor" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440|
-    :|450|)))
+  (("imageAtomicXor" 420 430 440 450)))
  (((("imageLoad" "gvec4") (("image" "gimage1D") ("P" "int")))
    (("imageLoad" "gvec4") (("image" "gimage2D") ("P" "ivec2")))
    (("imageLoad" "gvec4") (("image" "gimage3D") ("P" "ivec3")))
@@ -775,10 +636,10 @@
     (("image" "gimage2DMS") ("P" "ivec2") ("sample" "int")))
    (("imageLoad" "gvec4")
     (("image" "gimage2DMSArray") ("P" "ivec3") ("sample" "int"))))
-  (("imageLoad" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440| :|450|)))
+  (("imageLoad" 420 430 440 450)))
  (((("imageSamples" "int") (("image" "gimage2DMS")))
    (("imageSamples" "int") (("image" "gimage2DMSArray"))))
-  (("imageSamples" NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL :|450|)))
+  (("imageSamples" 450)))
  (((("imageSize" "int") (("image" "gimage1D")))
    (("imageSize" "ivec2") (("image" "gimage2D")))
    (("imageSize" "ivec3") (("image" "gimage3D")))
@@ -790,7 +651,7 @@
    (("imageSize" "int") (("image" "gimageBuffer")))
    (("imageSize" "ivec2") (("image" "gimage2DMS")))
    (("imageSize" "ivec3") (("image" "gimage2DMSArray"))))
-  (("imageSize" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440| :|450|)))
+  (("imageSize" 430 440 450)))
  (((("imageStore" "void") (("image" "gimage1D") ("P" "int") ("data" "gvec4")))
    (("imageStore" "void")
     (("image" "gimage2D") ("P" "ivec2") ("data" "gvec4")))
@@ -813,174 +674,118 @@
    (("imageStore" "void")
     (("image" "gimage2DMSArray") ("P" "ivec3") ("sample" "int")
      ("data" "gvec4"))))
-  (("imageStore" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440| :|450|)))
+  (("imageStore" 420 430 440 450)))
  (((("intBitsToFloat" "genType") (("x" "genIType")))
    (("uintBitsToFloat" "genType") (("x" "genUType"))))
-  (("intBitsToFloat" NIL NIL NIL NIL NIL :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("intBitsToFloat" 330 400 410 420 430 440 450)))
  (((("interpolateAtCentroid" "float") (("interpolant" "float")))
    (("interpolateAtCentroid" "vec2") (("interpolant" "vec2")))
    (("interpolateAtCentroid" "vec3") (("interpolant" "vec3")))
    (("interpolateAtCentroid" "vec4") (("interpolant" "vec4"))))
-  (("interpolateAtCentroid" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("interpolateAtCentroid" 400 410 420 430 440 450)))
  (((("interpolateAtOffset" "float")
     (("interpolant" "float") ("offset" "vec2")))
    (("interpolateAtOffset" "vec2") (("interpolant" "vec2") ("offset" "vec2")))
    (("interpolateAtOffset" "vec3") (("interpolant" "vec3") ("offset" "vec2")))
    (("interpolateAtOffset" "vec4") (("interpolant" "vec4") ("offset" "vec2"))))
-  (("interpolateAtoOffset" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("interpolateAtoOffset" 400 410 420 430 440 450)))
  (((("interpolateAtSample" "float") (("interpolant" "float") ("sample" "int")))
    (("interpolateAtSample" "vec2") (("interpolant" "vec2") ("sample" "int")))
    (("interpolateAtSample" "vec3") (("interpolant" "vec3") ("sample" "int")))
    (("interpolateAtSample" "vec4") (("interpolant" "vec4") ("sample" "int"))))
-  (("interpolateAtSample" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("interpolateAtSample" 400 410 420 430 440 450)))
  (((("inverse" "mat2") (("m" "mat2"))) (("inverse" "mat3") (("m" "mat3")))
    (("inverse" "mat4") (("m" "mat4"))) (("inverse" "dmat2") (("m" "dmat2")))
    (("inverse" "dmat3") (("m" "dmat3"))) (("inverse" "dmat4") (("m" "dmat4"))))
-  (("inverse (float)" NIL NIL NIL :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("inverse (double)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("inverse (float)" 140 150 330 400 410 420 430 440 450)
+   ("inverse (double)" 400 410 420 430 440 450)))
  (((("inversesqrt" "genType") (("x" "genType"))))
-  (("inversesqrt (genType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("inversesqrt (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("inversesqrt (genType)" 130 140 150 330 400 410 420 430 440 450)
+   ("inversesqrt (genDType)" 400 410 420 430 440 450)))
  (((("isinf" "genBType") (("x" "genType")))
    (("isinf" "genBType") (("x" "genDType"))))
-  (("isinf (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("isinf (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("isinf (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("isinf (genDType)" 400 410 420 430 440 450)))
  (((("isnan" "genBType") (("x" "genType")))
    (("isnan" "genBType") (("x" "genDType"))))
-  (("isnan (genType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("isnan (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("isnan (genType)" 130 140 150 330 400 410 420 430 440 450)
+   ("isnan (genDType)" 400 410 420 430 440 450)))
  (((("ldexp" "genType") (("x" "genType") ("exp" "genIType")))
    (("ldexp" "genDType") (("x" "genDType") ("exp" "genIType"))))
-  (("ldexp (genType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)
-   ("ldexp (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("ldexp (genType)" 400 410 420 430 440 450)
+   ("ldexp (genDType)" 400 410 420 430 440 450)))
  (((("length" "float") (("x" "genType")))
    (("length" "double") (("x" "genDType"))))
-  (("length (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("length (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("length (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("length (genDType)" 400 410 420 430 440 450)))
  (((("lessThan" "bvec") (("x" "vec") ("y" "vec")))
    (("lessThan" "bvec") (("x" "ivec") ("y" "ivec")))
    (("lessThan" "bvec") (("x" "uvec") ("y" "uvec"))))
-  (("lessThan (vec)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("lessThan (ivec)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("lessThan (uvec)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("lessThan (vec)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("lessThan (ivec)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("lessThan (uvec)" 130 140 150 330 400 410 420 430 440 450)))
  (((("lessThanEqual" "bvec") (("x" "vec") ("y" "vec")))
    (("lessThanEqual" "bvec") (("x" "ivec") ("y" "ivec")))
    (("lessThanEqual" "bvec") (("x" "uvec") ("y" "uvec"))))
-  (("lessThanEqual (vec)" :|110| :|120| :|130| :|140| :|150| :|330| :|400|
-    :|410| :|420| :|430| :|440| :|450|)
-   ("lessThanEqual (ivec)" :|110| :|120| :|130| :|140| :|150| :|330| :|400|
-    :|410| :|420| :|430| :|440| :|450|)
-   ("lessThanEqual (uvec)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
+  (("lessThanEqual (vec)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("lessThanEqual (ivec)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("lessThanEqual (uvec)" 130 140 150 330 400 410 420 430 440 450)))
  (((("log" "genType") (("x" "genType"))))
-  (("log (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
+  (("log (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("log2" "genType") (("x" "genType"))))
-  (("log2" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("log2" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("matrixCompMult" "mat") (("x" "mat") ("y" "mat")))
    (("matrixCompMult" "dmat") (("x" "dmat") ("y" "dmat"))))
-  (("matrixCompMult (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400|
-    :|410| :|420| :|430| :|440| :|450|)
-   ("matrixCompMult (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("matrixCompMult (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("matrixCompMult (genDType)" 400 410 420 430 440 450)))
  (((("max" "genType") (("x" "genType") ("y" "genType"))))
-  (("max (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("max (genIType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("max (genUType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("max (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("max (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("max (genIType)" 130 140 150 330 400 410 420 430 440 450)
+   ("max (genUType)" 130 140 150 330 400 410 420 430 440 450)
+   ("max (genDType)" 400 410 420 430 440 450)))
  (((("memoryBarrier" "uint") ((")" "void"))))
-  (("memoryBarrier" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("memoryBarrier" 400 410 420 430 440 450)))
  (((("memoryBarrierAtomicCounter" "void") ((")" "void"))))
-  (("memoryBarrierAtomicCounter" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430|
-    :|440| :|450|)))
+  (("memoryBarrierAtomicCounter" 430 440 450)))
  (((("memoryBarrierBuffer" "void") ((")" "void"))))
-  (("memoryBarrierBuffer" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440|
-    :|450|)))
+  (("memoryBarrierBuffer" 430 440 450)))
  (((("memoryBarrierImage" "void") ((")" "void"))))
-  (("memoryBarrierImage" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440|
-    :|450|)))
+  (("memoryBarrierImage" 430 440 450)))
  (((("memoryBarrierShared" "void") ((")" "void"))))
-  (("memoryBarrierShared" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440|
-    :|450|)))
+  (("memoryBarrierShared" 430 440 450)))
  (((("min" "genType") (("x" "genType") ("y" "genType"))))
-  (("min (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("min (genIType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("min (genUType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("min (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("min (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("min (genIType)" 130 140 150 330 400 410 420 430 440 450)
+   ("min (genUType)" 130 140 150 330 400 410 420 430 440 450)
+   ("min (genDType)" 400 410 420 430 440 450)))
  (((("mix" "genType") (("x" "genType") ("y" "genType") ("a" "genType"))))
-  (("mix(genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("mix(genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)
-   ("mix(genIType), mix(genUType), mix(genBType)" NIL NIL NIL NIL NIL NIL NIL
-    NIL NIL NIL NIL :|450|)))
+  (("mix(genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("mix(genDType)" 400 410 420 430 440 450)
+   ("mix(genIType), mix(genUType), mix(genBType)" 450)))
  (((("mod" "genType") (("x" "genType") ("y" "float"))))
-  (("mod (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("mod (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("mod (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("mod (genDType)" 400 410 420 430 440 450)))
  (((("modf" "genType") (("x" "genType") ("i" "out genType"))))
-  (("modf (genType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("modf (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("modf (genType)" 130 140 150 330 400 410 420 430 440 450)
+   ("modf (genDType)" 400 410 420 430 440 450)))
  (((("noise1" "float") (("x" "genType"))) (("noise2" "vec2") (("x" "genType")))
    (("noise3" "vec3") (("x" "genType"))) (("noise4" "vec4") (("x" "genType"))))
-  (("noise1" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("noise2" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("noise3" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("noise4" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("noise1" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("noise2" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("noise3" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("noise4" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("normalize" "genType") (("v" "genType")))
    (("normalize" "genDType") (("v" "genDType"))))
-  (("normalize (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400|
-    :|410| :|420| :|430| :|440| :|450|)
-   ("normalize (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("normalize (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("normalize (genDType)" 400 410 420 430 440 450)))
  (((("not" "bvec") (("x" "bvec"))))
-  (("not" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("not" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("notEqual" "bvec") (("x" "vec") ("y" "vec")))
    (("notEqual" "bvec") (("x" "ivec") ("y" "ivec")))
    (("notEqual" "bvec") (("x" "uvec") ("y" "uvec"))))
-  (("notEqual (vec)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("notEqual (ivec)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("notEqual (uvec)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("notEqual (vec)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("notEqual (ivec)" 130 140 150 330 400 410 420 430 440 450)
+   ("notEqual (uvec)" 130 140 150 330 400 410 420 430 440 450)))
  (((("outerProduct" "mat2") (("c" "vec2") ("r" "vec2")))
    (("outerProduct" "mat3") (("c" "vec3") ("r" "vec3")))
    (("outerProduct" "mat4") (("c" "vec4") ("r" "vec4")))
@@ -999,92 +804,59 @@
    (("outerProduct" "dmat4x2") (("c" "dvec2") ("r" "dvec4")))
    (("outerProduct" "dmat3x4") (("c" "dvec4") ("r" "dvec3")))
    (("outerProduct" "dmat4x3") (("c" "dvec3") ("r" "dvec4"))))
-  (("outerProduct (float)" NIL :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("outerProduct (double)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("outerProduct (float)" 120 130 140 150 330 400 410 420 430 440 450)
+   ("outerProduct (double)" 400 410 420 430 440 450)))
  (((("packDouble2x32" "double") (("v" "uvec2"))))
-  (("packDouble2x32" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("packDouble2x32" 400 410 420 430 440 450)))
  (((("packHalf2x16" "uint") (("v" "vec2"))))
-  (("packHalf2x16" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440|
-    :|450|)))
+  (("packHalf2x16" 420 430 440 450)))
  (((("packUnorm2x16" "uint") (("v" "vec2")))
    (("packSnorm2x16" "uint") (("v" "vec2")))
    (("packUnorm4x8" "uint") (("v" "vec4")))
    (("packSnorm4x8" "uint") (("v" "vec4"))))
-  (("packUnorm2x16" NIL NIL NIL NIL NIL NIL NIL :|410| :|420| :|430| :|440|
-    :|450|)
-   ("packSnorm2x16" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440|
-    :|450|)
-   ("packUnorm4x8" NIL NIL NIL NIL NIL NIL NIL :|410| :|420| :|430| :|440|
-    :|450|)
-   ("packSnorm4x8" NIL NIL NIL NIL NIL NIL NIL :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("packUnorm2x16" 410 420 430 440 450) ("packSnorm2x16" 420 430 440 450)
+   ("packUnorm4x8" 410 420 430 440 450) ("packSnorm4x8" 410 420 430 440 450)))
  (((("pow" "genType") (("x" "genType") ("y" "genType"))))
-  (("pow" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("pow" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("radians" "genType") (("degrees" "genType"))))
-  (("radians" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("radians" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("reflect" "genType") (("I" "genType") ("N" "genType")))
    (("reflect" "genDType") (("I" "genDType") ("N" "genDType"))))
-  (("reflect (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("reflect (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("reflect (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("reflect (genDType)" 400 410 420 430 440 450)))
  (((("refract" "genType") (("I" "genType") ("N" "genType") ("eta" "float")))
    (("refract" "genDType")
     (("I" "genDType") ("N" "genDType") ("eta" "float"))))
-  (("refract (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("refract (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("refract (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("refract (genDType)" 400 410 420 430 440 450)))
  (((("round" "genType") (("x" "genType"))))
-  (("round (genType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("round (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("round (genType)" 130 140 150 330 400 410 420 430 440 450)
+   ("round (genDType)" 400 410 420 430 440 450)))
  (((("roundEven" "genType") (("x" "genType"))))
-  (("roundEven (genType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("roundEven (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("roundEven (genType)" 130 140 150 330 400 410 420 430 440 450)
+   ("roundEven (genDType)" 400 410 420 430 440 450)))
  (((("sign" "genType") (("x" "genType"))))
-  (("sign (genType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("sign (genIType)" NIL NIL NIL NIL :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)
-   ("sign (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("sign (genType)" 130 140 150 330 400 410 420 430 440 450)
+   ("sign (genIType)" 150 330 400 410 420 430 440 450)
+   ("sign (genDType)" 400 410 420 430 440 450)))
  (((("sin" "genType") (("angle" "genType"))))
-  (("sin" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("sin" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("sinh" "genType") (("x" "genType"))))
-  (("sinh" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("sinh" 130 140 150 330 400 410 420 430 440 450)))
  (((("smoothstep" "genType")
     (("edge0" "genType") ("edge1" "genType") ("x" "genType"))))
-  (("smoothstep (genType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("smoothstep (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("smoothstep (genType)" 130 140 150 330 400 410 420 430 440 450)
+   ("smoothstep (genDType)" 400 410 420 430 440 450)))
  (((("sqrt" "genType") (("x" "genType"))))
-  (("sqrt (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("sqrt (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("sqrt (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("sqrt (genDType)" 400 410 420 430 440 450)))
  (((("step" "genType") (("edge" "genType") ("x" "genType"))))
-  (("step (genType)" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("step (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("step (genType)" 110 120 130 140 150 330 400 410 420 430 440 450)
+   ("step (genDType)" 400 410 420 430 440 450)))
  (((("tan" "genType") (("angle" "genType"))))
-  (("tan" :|110| :|120| :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("tan" 110 120 130 140 150 330 400 410 420 430 440 450)))
  (((("tanh" "genType") (("x" "genType"))))
-  (("tanh" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("tanh" 130 140 150 330 400 410 420 430 440 450)))
  (((("texelFetch" "gvec4")
     (("sampler" "gsampler1D") ("P" "int") ("lod" "int")))
    (("texelFetch" "gvec4")
@@ -1101,12 +873,11 @@
     (("sampler" "gsampler2DMS") ("P" "ivec2") ("sample" "sample")))
    (("texelFetch" "gvec4")
     (("sampler" "gsampler2DMSArray") ("P" "ivec3") ("sample" "sample"))))
-  (("texelFetch" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("texelFetch (gsampler2DRect, gsamplerBuffer)" NIL NIL NIL :|140| :|150|
-    :|330| :|400| :|410| :|420| :|430| :|440| :|450|)
-   ("texelFetch (gsampler2DMS, gsampler2DMSArray)" NIL NIL NIL NIL :|150|
-    :|330| :|400| :|410| :|420| :|430| :|440| :|450|)))
+  (("texelFetch" 130 140 150 330 400 410 420 430 440 450)
+   ("texelFetch (gsampler2DRect, gsamplerBuffer)" 140 150 330 400 410 420 430
+    440 450)
+   ("texelFetch (gsampler2DMS, gsampler2DMSArray)" 150 330 400 410 420 430 440
+    450)))
  (((("texelFetchOffset" "gvec4")
     (("sampler" "gsampler1D") ("P" "int") ("lod" "int") ("offset" "int")))
    (("texelFetchOffset" "gvec4")
@@ -1121,12 +892,10 @@
    (("texelFetchOffset" "gvec4")
     (("sampler" "gsampler2DArray") ("P" "ivec3") ("lod" "int")
      ("offset" "int"))))
-  (("texelFetchOffset" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("texelFetchOffset (gsampler2DRect)" NIL NIL NIL :|140| :|150| :|330| :|400|
-    :|410| :|420| :|430| :|440| :|450|)
-   ("texelFetchOffset (gsampler2DMS, gsampler2DMSArray)" NIL NIL NIL NIL :|150|
-    :|330| :|400| :|410| :|420| :|430| :|440| :|450|)))
+  (("texelFetchOffset" 130 140 150 330 400 410 420 430 440 450)
+   ("texelFetchOffset (gsampler2DRect)" 140 150 330 400 410 420 430 440 450)
+   ("texelFetchOffset (gsampler2DMS, gsampler2DMSArray)" 150 330 400 410 420
+    430 440 450)))
  (((("texture" "gvec4")
     (("sampler" "gsampler1D") ("P" "float") ("bias" "[float")))
    (("texture" "gvec4")
@@ -1155,14 +924,11 @@
    (("texture" "float") (("sampler" "sampler2DRectShadow") ("P" "vec3")))
    (("texture" "float")
     (("sampler" "gsamplerCubeArrayShadow") ("P" "vec4") ("compare" "float"))))
-  (("texture" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420| :|430|
-    :|440| :|450|)
-   ("texture (gsampler2DRect{Shadow})" NIL NIL NIL :|140| :|150| :|330| :|400|
-    :|410| :|420| :|430| :|440| :|450|)
-   ("texture (gsampler2DMS, gsampler2DMSArray)" NIL NIL NIL NIL :|150| :|330|
-    :|400| :|410| :|420| :|430| :|440| :|450|)
-   ("texture (gsamplerCubeArray{Shadow})" NIL NIL NIL NIL NIL NIL :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
+  (("texture" 130 140 150 330 400 410 420 430 440 450)
+   ("texture (gsampler2DRect{Shadow})" 140 150 330 400 410 420 430 440 450)
+   ("texture (gsampler2DMS, gsampler2DMSArray)" 150 330 400 410 420 430 440
+    450)
+   ("texture (gsamplerCubeArray{Shadow})" 400 410 420 430 440 450)))
  (((("textureGather" "gvec4")
     (("sampler" "gsampler2D") ("P" "vec2") ("comp]" "[int")))
    (("textureGather" "gvec4")
@@ -1183,8 +949,7 @@
     (("sampler" "gsamplerCubeArrayShadow") ("P" "vec4") ("refZ" "float")))
    (("textureGather" "vec4")
     (("sampler" "gsampler2DRectShadow") ("P" "vec3") ("refZ" "float"))))
-  (("textureGather" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("textureGather" 400 410 420 430 440 450)))
  (((("textureGatherOffset" "gvec4")
     (("sampler" "gsampler2D") ("P" "vec2") ("offset" "ivec2")
      ("comp]" "[int")))
@@ -1203,8 +968,7 @@
    (("textureGatherOffset" "vec4")
     (("sampler" "gsampler2DRectShadow") ("P" "vec3") ("refZ" "float")
      ("offset" "ivec2"))))
-  (("textureGatherOffset" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("textureGatherOffset" 400 410 420 430 440 450)))
  (((("textureGatherOffsets" "gvec4")
     (("sampler" "gsampler2D") ("P" "vec2") ("offsets[4]" "ivec2")
      ("comp]" "[int")))
@@ -1223,8 +987,7 @@
    (("textureGatherOffsets" "vec4")
     (("sampler" "gsampler2DRectShadow") ("P" "vec3") ("refZ" "float")
      ("offsets[4]" "ivec2"))))
-  (("textureGatherOffsets" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("textureGatherOffsets" 400 410 420 430 440 450)))
  (((("textureGrad" "gvec4")
     (("sampler" "gsampler1D") ("P" "float") ("dPdx" "float") ("dPdy" "float")))
    (("textureGrad" "gvec4")
@@ -1257,12 +1020,9 @@
    (("textureGrad" "gvec4")
     (("sampler" "gsamplerCubeArray") ("P" "vec4") ("dPdx" "vec3")
      ("dPdy" "vec3"))))
-  (("textureGrad" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("textureGrad (gsampler2DRect{Shadow})" NIL NIL NIL :|140| :|150| :|330|
-    :|400| :|410| :|420| :|430| :|440| :|450|)
-   ("textureGrad (gsamplerCubeArray)" NIL NIL NIL NIL NIL NIL :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
+  (("textureGrad" 130 140 150 330 400 410 420 430 440 450)
+   ("textureGrad (gsampler2DRect{Shadow})" 140 150 330 400 410 420 430 440 450)
+   ("textureGrad (gsamplerCubeArray)" 400 410 420 430 440 450)))
  (((("textureGradOffset" "gvec4")
     (("sampler" "gsampler1D") ("P" "float") ("dPdx" "float") ("dPdy" "float")
      ("offset" "int")))
@@ -1296,10 +1056,9 @@
    (("textureGradOffset" "float")
     (("sampler" "sampler2DArrayShadow") ("P" "vec3") ("dPdx" "vec2")
      ("dPdy" "vec2") ("offset" "ivec2"))))
-  (("textureGradOffset" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("textureGradOffset (gsampler2DRect{Shadow})" NIL NIL NIL :|140| :|150|
-    :|330| :|400| :|410| :|420| :|430| :|440| :|450|)))
+  (("textureGradOffset" 130 140 150 330 400 410 420 430 440 450)
+   ("textureGradOffset (gsampler2DRect{Shadow})" 140 150 330 400 410 420 430
+    440 450)))
  (((("textureLod" "gvec4")
     (("sampler" "gsampler1D") ("P" "float") ("lod" "float")))
    (("textureLod" "gvec4")
@@ -1320,12 +1079,9 @@
     (("sampler" "sampler1DArrayShadow") ("P" "vec3") ("lod" "float")))
    (("textureLod" "gvec4")
     (("sampler" "gsamplerCubeArray") ("P" "vec4") ("lod" "float"))))
-  (("textureLod" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("textureLod (gsampler2DRect{Shadow})" NIL NIL NIL :|140| :|150| :|330|
-    :|400| :|410| :|420| :|430| :|440| :|450|)
-   ("textureLod (gsamplerCubeArray)" NIL NIL NIL NIL NIL NIL :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
+  (("textureLod" 130 140 150 330 400 410 420 430 440 450)
+   ("textureLod (gsampler2DRect{Shadow})" 140 150 330 400 410 420 430 440 450)
+   ("textureLod (gsamplerCubeArray)" 400 410 420 430 440 450)))
  (((("textureLodOffset" "gvec4")
     (("sampler" "gsampler1D") ("P" "float") ("lod" "float") ("offset" "int")))
    (("textureLodOffset" "gvec4")
@@ -1347,12 +1103,10 @@
    (("textureLodOffset" "float")
     (("sampler" "sampler1DArrayShadow") ("P" "vec3") ("lod" "float")
      ("offset" "int"))))
-  (("textureLodOffset" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("textureLodOffset (gsampler2DRect{Shadow})" NIL NIL NIL :|140| :|150|
-    :|330| :|400| :|410| :|420| :|430| :|440| :|450|)
-   ("textureLodOffset (gsamplerCubeArray)" NIL NIL NIL NIL NIL NIL :|400|
-    :|410| :|420| :|430| :|440| :|450|)))
+  (("textureLodOffset" 130 140 150 330 400 410 420 430 440 450)
+   ("textureLodOffset (gsampler2DRect{Shadow})" 140 150 330 400 410 420 430 440
+    450)
+   ("textureLodOffset (gsamplerCubeArray)" 400 410 420 430 440 450)))
  (((("textureOffset" "gvec4")
     (("sampler" "gsampler1D") ("P" "float") ("offset" "int")
      ("bias" "[float")))
@@ -1382,10 +1136,9 @@
     (("sampler" "sampler1DArrayShadow") ("P" "vec3") ("offset" "int")))
    (("textureOffset" "float")
     (("sampler" "sampler2DArrayShadow") ("P" "vec4") ("offset" "vec2"))))
-  (("textureOffset" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("textureOffset (gsampler2DRect{Shadow})" NIL NIL NIL :|140| :|150| :|330|
-    :|400| :|410| :|420| :|430| :|440| :|450|)))
+  (("textureOffset" 130 140 150 330 400 410 420 430 440 450)
+   ("textureOffset (gsampler2DRect{Shadow})" 140 150 330 400 410 420 430 440
+    450)))
  (((("textureProj" "gvec4")
     (("sampler" "gsampler1D") ("P" "vec2") ("bias" "[float")))
    (("textureProj" "gvec4")
@@ -1403,10 +1156,9 @@
    (("textureProj" "gvec4") (("sampler" "gsampler2DRect") ("P" "vec3")))
    (("textureProj" "gvec4") (("sampler" "gsampler2DRect") ("P" "vec4")))
    (("textureProj" "float") (("sampler" "gsampler2DRectShadow") ("P" "vec4"))))
-  (("textureProj" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("textureProj (gsampler2DRect{Shadow})" NIL NIL NIL :|140| :|150| :|330|
-    :|400| :|410| :|420| :|430| :|440| :|450|)))
+  (("textureProj" 130 140 150 330 400 410 420 430 440 450)
+   ("textureProj (gsampler2DRect{Shadow})" 140 150 330 400 410 420 430 440
+    450)))
  (((("textureProjGrad" "gvec4")
     (("sampler" "gsampler1D") ("P" "vec2") ("pDx" "float") ("pDy" "float")))
    (("textureProjGrad" "gvec4")
@@ -1429,10 +1181,9 @@
    (("textureProjGrad" "float")
     (("sampler" "gsampler2DRectShadow") ("P" "vec4") ("pDx" "vec2")
      ("pDy" "vec2"))))
-  (("textureProjGrad" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("textureProjGrad (gsampler2DRect{Shadow})" NIL NIL NIL :|140| :|150| :|330|
-    :|400| :|410| :|420| :|430| :|440| :|450|)))
+  (("textureProjGrad" 130 140 150 330 400 410 420 430 440 450)
+   ("textureProjGrad (gsampler2DRect{Shadow})" 140 150 330 400 410 420 430 440
+    450)))
  (((("textureProjGradOffset" "gvec4")
     (("sampler" "gsampler1D") ("P" "vec2") ("dPdx" "float") ("dPdy" "float")
      ("offset" "int")))
@@ -1463,10 +1214,9 @@
    (("textureProjGradOffset" "float")
     (("sampler" "gsampler2DRectShadow") ("P" "vec4") ("dPdx" "vec2")
      ("dPdy" "vec2") ("offset" "ivec2"))))
-  (("textureProjGradOffset" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("textureProjGradOffset (gsampler2DRect{Shadow})" NIL NIL NIL :|140| :|150|
-    :|330| :|400| :|410| :|420| :|430| :|440| :|450|)))
+  (("textureProjGradOffset" 130 140 150 330 400 410 420 430 440 450)
+   ("textureProjGradOffset (gsampler2DRect{Shadow})" 140 150 330 400 410 420
+    430 440 450)))
  (((("textureProjLod" "gvec4")
     (("sampler" "gsampler1D") ("P" "vec2") ("lod" "float")))
    (("textureProjLod" "gvec4")
@@ -1481,8 +1231,7 @@
     (("sampler" "sampler1DShadow") ("P" "vec4") ("lod" "float")))
    (("textureProjLod" "float")
     (("sampler" "sampler2DShadow") ("P" "vec4") ("lod" "float"))))
-  (("textureProjLod" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)))
+  (("textureProjLod" 130 140 150 330 400 410 420 430 440 450)))
  (((("textureProjLodOffset" "gvec4")
     (("sampler" "gsampler1D") ("P" "vec2") ("lod" "float") ("offset" "int")))
    (("textureProjLodOffset" "gvec4")
@@ -1499,8 +1248,7 @@
    (("textureProjLodOffset" "float")
     (("sampler" "sampler2DShadow") ("P" "vec4") ("lod" "float")
      ("offset" "ivec2"))))
-  (("textureProjLodOffset" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
+  (("textureProjLodOffset" 130 140 150 330 400 410 420 430 440 450)))
  (((("textureProjOffset" "gvec4")
     (("sampler" "gsampler1D") ("P" "vec2") ("offset" "int") ("bias" "[float")))
    (("textureProjOffset" "gvec4")
@@ -1526,10 +1274,9 @@
     (("sampler" "gsampler2DRect") ("P" "vec4") ("offset" "ivec2")))
    (("textureProjOffset" "float")
     (("sampler" "gsampler2DRectShadow") ("P" "vec4") ("offset" "ivec2"))))
-  (("textureProjOffset" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("textureProjOffset (gsampler2DRect{Shadow})" NIL NIL NIL :|140| :|150|
-    :|330| :|400| :|410| :|420| :|430| :|440| :|450|)))
+  (("textureProjOffset" 130 140 150 330 400 410 420 430 440 450)
+   ("textureProjOffset (gsampler2DRect{Shadow})" 140 150 330 400 410 420 430
+    440 450)))
  (((("textureQueryLevels" "int") (("sampler" "gsampler1D")))
    (("textureQueryLevels" "int") (("sampler" "gsampler2D")))
    (("textureQueryLevels" "int") (("sampler" "gsampler3D")))
@@ -1543,8 +1290,7 @@
    (("textureQueryLevels" "int") (("sampler" "gsampler1DArrayShadow")))
    (("textureQueryLevels" "int") (("sampler" "gsampler2DArrayShadow")))
    (("textureQueryLevels" "int") (("sampler" "gsamplerCubeArrayShadow"))))
-  (("textureQueryLevels" NIL NIL NIL NIL NIL NIL NIL NIL NIL :|430| :|440|
-    :|450|)))
+  (("textureQueryLevels" 430 440 450)))
  (((("textureQueryLod" "vec2") (("sampler" "gsampler1D") ("P" "float")))
    (("textureQueryLod" "vec2") (("sampler" "gsampler2D") ("P" "vec2")))
    (("textureQueryLod" "vec2") (("sampler" "gsampler3D") ("P" "vec3")))
@@ -1561,11 +1307,10 @@
     (("sampler" "gsampler2DArrayShadow") ("P" "vec2")))
    (("textureQueryLod" "vec2")
     (("sampler" "gsamplerCubeArrayShadow") ("P" "vec3"))))
-  (("textureQueryLod" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("textureQueryLod" 400 410 420 430 440 450)))
  (((("textureSamples" "int") (("sampler" "gsampler2DMS")))
    (("textureSamples" "int") (("sampler" "gsampler2DMSArray"))))
-  (("textureSamples" NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL NIL :|450|)))
+  (("textureSamples" 450)))
  (((("textureSize" "int") (("sampler" "gsampler1D") ("lod" "int")))
    (("textureSize" "ivec2") (("sampler" "gsampler2D") ("lod" "int")))
    (("textureSize" "ivec3") (("sampler" "gsampler3D") ("lod" "int")))
@@ -1585,12 +1330,10 @@
    (("textureSize" "int") (("sampler" "gsamplerBuffer")))
    (("textureSize" "ivec2") (("sampler" "gsampler2DMS")))
    (("textureSize" "ivec3") (("sampler" "gsampler2DMSArray"))))
-  (("textureSize" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("textureSize (samplerBuffer, samplerRect{Shadow})" NIL NIL NIL :|140|
-    :|150| :|330| :|400| :|410| :|420| :|430| :|440| :|450|)
-   ("textureSize (samplerCube{Shadow})" NIL NIL NIL NIL NIL NIL :|400| :|410|
-    :|420| :|430| :|440| :|450|)))
+  (("textureSize" 130 140 150 330 400 410 420 430 440 450)
+   ("textureSize (samplerBuffer, samplerRect{Shadow})" 140 150 330 400 410 420
+    430 440 450)
+   ("textureSize (samplerCube{Shadow})" 400 410 420 430 440 450)))
  (((("transpose" "mat2") (("m" "mat2"))) (("transpose" "mat3") (("m" "mat3")))
    (("transpose" "mat4") (("m" "mat4")))
    (("transpose" "mat2x3") (("m" "mat3x2")))
@@ -1608,46 +1351,32 @@
    (("transpose" "dmat3x4") (("m" "dmat4x3")))
    (("transpose" "dmat4x2") (("m" "dmat2x4")))
    (("transpose" "dmat4x3") (("m" "dmat3x4"))))
-  (("transpose (float)" NIL :|120| :|130| :|140| :|150| :|330| :|400| :|410|
-    :|420| :|430| :|440| :|450|)
-   ("transpose (double)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("transpose (float)" 120 130 140 150 330 400 410 420 430 440 450)
+   ("transpose (double)" 400 410 420 430 440 450)))
  (((("trunc" "genType") (("x" "genType"))))
-  (("trunc (genType)" NIL NIL :|130| :|140| :|150| :|330| :|400| :|410| :|420|
-    :|430| :|440| :|450|)
-   ("trunc (genDType)" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("trunc (genType)" 130 140 150 330 400 410 420 430 440 450)
+   ("trunc (genDType)" 400 410 420 430 440 450)))
  (((("uaddCarry" "genUType")
     (("x" "genUType") ("y" "genUType") ("carry" "out genUType"))))
-  (("uaddCarry" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("uaddCarry" 400 410 420 430 440 450)))
  (((("umulExtended" "void")
     (("x" "genUType") ("y" "genUType") ("msb" "out genUType")
      ("lsb" "out genUType")))
    (("imulExtended" "void")
     (("x" "genIType") ("y" "genIType") ("msb" "out genIType")
      ("lsb" "out genIType"))))
-  (("umulExtended" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("umulExtended" 400 410 420 430 440 450)))
  (((("unpackDouble2x32" "uvec2") (("d" "double"))))
-  (("unpackDouble2x32" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430|
-    :|440| :|450|)))
+  (("unpackDouble2x32" 400 410 420 430 440 450)))
  (((("unpackHalf2x16" "vec2") (("v" "uint"))))
-  (("unpackHalf2x16" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440|
-    :|450|)))
+  (("unpackHalf2x16" 420 430 440 450)))
  (((("unpackUnorm2x16" "vec2") (("p" "uint")))
    (("unpackSnorm2x16" "vec2") (("p" "uint")))
    (("unpackUnorm4x8" "vec4") (("p" "uint")))
    (("unpackSnorm4x8" "vec4") (("p" "uint"))))
-  (("unpackUnorm2x16" NIL NIL NIL NIL NIL NIL NIL :|410| :|420| :|430| :|440|
-    :|450|)
-   ("unpackSnorm2x16" NIL NIL NIL NIL NIL NIL NIL NIL :|420| :|430| :|440|
-    :|450|)
-   ("unpackUnorm4x8" NIL NIL NIL NIL NIL NIL NIL :|410| :|420| :|430| :|440|
-    :|450|)
-   ("unpackSnorm4x8" NIL NIL NIL NIL NIL NIL NIL :|410| :|420| :|430| :|440|
-    :|450|)))
+  (("unpackUnorm2x16" 410 420 430 440 450) ("unpackSnorm2x16" 420 430 440 450)
+   ("unpackUnorm4x8" 410 420 430 440 450)
+   ("unpackSnorm4x8" 410 420 430 440 450)))
  (((("usubBorrow" "genUType")
     (("x" "genUType") ("y" "genUType") ("borrow" "out genUType"))))
-  (("usubBorrow" NIL NIL NIL NIL NIL NIL :|400| :|410| :|420| :|430| :|440|
-    :|450|))))
+  (("usubBorrow" 400 410 420 430 440 450))))
